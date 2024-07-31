@@ -249,8 +249,8 @@ t2.from("form #textarea", {
 gsap.from(".form button", {
   y: "50px",
   opacity: 0,
-  duration: 2,
-  stagger: 1,
+  // duration: 2,
+  // stagger: 1,
   // stagger: 0.4,
   scrollTrigger: {
     trigger: ".form",

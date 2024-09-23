@@ -439,6 +439,8 @@ html, body {
     /* align-items: center; */
     margin-left:10px;
     perspective: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 .project_cards .project_card{
     min-width:32rem;
@@ -533,7 +535,7 @@ html, body {
       transform: translateX(0);
     }
     to {
-      transform: translateX(-90%);
+      transform: translateX(-100%);
     }
   }
 .page_5{
@@ -787,6 +789,7 @@ textarea:focus{
         /* background-color: #accd54; */
         /* margin-left: 45px; */
         /* margin-right: 0px; */
+        display: flex;
         gap: 10px;
     }
     .project_cards .project_card{
